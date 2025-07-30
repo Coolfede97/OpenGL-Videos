@@ -133,11 +133,17 @@
     <Library Include="vendor\GLFW\lib\glfw3.lib" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\ShaderFunctions.h" />
     <ClInclude Include="vendor\GLEW\include\GL\glew.h" />
     <ClInclude Include="vendor\GLFW\include\GLFW\glfw3.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Sandbox.cpp" />
+    <ClCompile Include="src\ShaderFunctions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\BasicFragment.glsl" />
+    <None Include="res\shaders\BasicVertex.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
