@@ -146,6 +146,7 @@
   <ItemGroup>
     <ClCompile Include="src\Sandbox.cpp" />
     <ClCompile Include="src\ShaderFunctions.cpp" />
+    <ClCompile Include="src\Tests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\shaders\BasicFragment.glsl" />
